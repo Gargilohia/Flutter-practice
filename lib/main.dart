@@ -15,7 +15,10 @@ void main() {
             ),
           ),
         child: const Center(
-          child: Text('Namaste!'),
+          child: Text('Namaste!', style: TextStyle(
+            color: Colors.white,
+            fontSize: 28,
+          ),),
         ),
       ),
       ),
